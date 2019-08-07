@@ -1,0 +1,6 @@
+* Raytracer
+** About
+This is a Rust implementation of Peter Shirley's "Ray Tracing in One Weekend". Most of the code just follow Peter's book, and some part of it is inspired by ranveeraggarwal's [[https://github.com/ranveeraggarwal/rust-raytracer][rust-raytracer]], including using Rayon to speedup the rendering process.
+** Result
+#+CAPTION: This image is generated after running 504 random spheres at 1000 samples.
+[[https://github.com/igaryhe/Raytracer/blob/master/test.png?raw=true]]
